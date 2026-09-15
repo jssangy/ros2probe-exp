@@ -1,0 +1,10 @@
+N_P,condition,spdp_count,sedp_count,control_count,discovery_messages
+1,baseline,6.0,38.0,8.0,52.0
+1,rp_run,6.0,38.0,8.0,52.0
+1,ros2_daemon,26.3,84.0,23.3,133.7
+3,baseline,83.7,342.0,70.7,496.3
+3,rp_run,87.3,342.0,69.3,498.7
+3,ros2_daemon,205.3,480.3,122.0,807.7
+5,baseline,336.7,950.0,197.0,1483.7
+5,rp_run,327.7,950.0,201.3,1479.0
+5,ros2_daemon,676.7,1183.3,386.7,2246.7

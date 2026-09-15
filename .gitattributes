@@ -1,0 +1,2 @@
+# Preserve archived CSV bytes so SHA256SUMS remains valid on every checkout.
+organized_results/**/*.csv -text whitespace=cr-at-eol

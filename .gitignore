@@ -1,0 +1,27 @@
+/build/
+/install/
+/log/
+/results/
+/bags/
+/organized_results/
+/reports/
+/validation/
+__pycache__/
+*.py[cod]
+*.mcap
+*.db3
+*.pcap
+*.pcapng
+/.claude/
+/.agents/
+.codex
+AGENTS.md
+CLAUDE.md
+/.artifact-env.sh
+/.testbed.json
+/.testbed.*.json
+# Single private config includes installation passwords; keep local to the master.
+/.testbed.local.json
+/.obsidian/
+/.tools/
+/vendor/ros2probe/target/

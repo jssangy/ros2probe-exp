@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "master": {
+    "clock_address": "192.168.0.3",
+    "sudo_password": ""
+  },
+  "ros_distro": "jazzy",
+  "domain_id": 77,
+  "default_link": "wired",
+  "slaves": {
+    "slave_a": {
+      "user": "csilab",
+      "password": "",
+      "repo": "~/ros2probe-exp",
+      "wired": {"ip": "192.168.0.2", "nic": "eno1"},
+      "wireless": {"ip": "192.168.0.5", "nic": "wlp4s0"}
+    },
+    "slave_b": {
+      "user": "csilab",
+      "password": "",
+      "repo": "~/ros2probe-exp",
+      "wired": {"ip": "192.168.0.6", "nic": "eno1"},
+      "wireless": {"ip": "192.168.0.4", "nic": "wlp4s0"}
+    }
+  }
+}

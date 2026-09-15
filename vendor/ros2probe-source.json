@@ -1,0 +1,443 @@
+{
+  "upstream_repository": "git@github.com:jssangy/ros2probe.git",
+  "upstream_commit": "7ddf30717d5015b1423d18b609331c5db26108a5",
+  "source_location": "/home/js/ros2probe",
+  "imported_on": "2026-09-12",
+  "modifications": [
+    {
+      "path": "ros2probe/src/capture/socket.rs",
+      "change": "CAPTURE_RING_BLOCK_COUNT: 128 -> 8; block size unchanged at 256 KiB; ring size 2 MiB per interface."
+    }
+  ],
+  "omitted": "Git metadata, agent configuration, release-download scripts, upstream docs/assets and build outputs; all workspace build sources and licenses included.",
+  "files": {
+    "Cargo.lock": {
+      "upstream_sha256": "b6a1ff042cbc2ddf0ed4436855f4368712496900c6027b1fe641de01918bf30e",
+      "artifact_sha256": "b6a1ff042cbc2ddf0ed4436855f4368712496900c6027b1fe641de01918bf30e"
+    },
+    "Cargo.toml": {
+      "upstream_sha256": "167e5f640894245b39d8b70a2ac034148843ffc4a6d2c70dd2c6416bd456038f",
+      "artifact_sha256": "167e5f640894245b39d8b70a2ac034148843ffc4a6d2c70dd2c6416bd456038f"
+    },
+    "LICENSE": {
+      "upstream_sha256": "998600173314a2ef3c08186d972b65f380995850679a0ae1d8236cee01968469",
+      "artifact_sha256": "998600173314a2ef3c08186d972b65f380995850679a0ae1d8236cee01968469"
+    },
+    "LICENSE-GPL2": {
+      "upstream_sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505",
+      "artifact_sha256": "f9c375a1be4a41f7b70301dd83c91cb89e41567478859b77eef375a52d782505"
+    },
+    "common/Cargo.toml": {
+      "upstream_sha256": "009de859504065a22813e1c955e712e42424b8ef4622d443766d22514b715d0a",
+      "artifact_sha256": "009de859504065a22813e1c955e712e42424b8ef4622d443766d22514b715d0a"
+    },
+    "common/src/ebpf.rs": {
+      "upstream_sha256": "6918bb29d74ba99ff0e63f400818611c24e9e5c83bd6a788f771c8c01de04f1a",
+      "artifact_sha256": "6918bb29d74ba99ff0e63f400818611c24e9e5c83bd6a788f771c8c01de04f1a"
+    },
+    "common/src/event.rs": {
+      "upstream_sha256": "1ccf330e876c185f4038953ba7125aaa70e6565ef4cde0dcd96b59be4d8f21ba",
+      "artifact_sha256": "1ccf330e876c185f4038953ba7125aaa70e6565ef4cde0dcd96b59be4d8f21ba"
+    },
+    "common/src/lib.rs": {
+      "upstream_sha256": "d308146b4e8b130b060414fd8299f7aa93e33f20860c9649a70f49a6d0c23517",
+      "artifact_sha256": "d308146b4e8b130b060414fd8299f7aa93e33f20860c9649a70f49a6d0c23517"
+    },
+    "common/src/rtps.rs": {
+      "upstream_sha256": "4ef1eafe5b998051ae7835422054710cdd5ba77c2a813100e719a132708a71a5",
+      "artifact_sha256": "4ef1eafe5b998051ae7835422054710cdd5ba77c2a813100e719a132708a71a5"
+    },
+    "ebpf/Cargo.toml": {
+      "upstream_sha256": "b273961bd0f0417ad24bdbecc013053709c3ad9a9b4fdf2248f45eb3ab99498b",
+      "artifact_sha256": "b273961bd0f0417ad24bdbecc013053709c3ad9a9b4fdf2248f45eb3ab99498b"
+    },
+    "ebpf/build.rs": {
+      "upstream_sha256": "4c186b56a43bc1052c1cf8514868b29f7d5243fec842fd35f8eb7b3960b6381d",
+      "artifact_sha256": "4c186b56a43bc1052c1cf8514868b29f7d5243fec842fd35f8eb7b3960b6381d"
+    },
+    "ebpf/src/filter.rs": {
+      "upstream_sha256": "8e7ee75a7e17127dc6e83db098127066908028e20e8b34779a0af71562f5ed05",
+      "artifact_sha256": "8e7ee75a7e17127dc6e83db098127066908028e20e8b34779a0af71562f5ed05"
+    },
+    "ebpf/src/lib.rs": {
+      "upstream_sha256": "6c183a19a3a06d1885f829af6078c89b22f03217d0c0ed44934f040e3d2cc894",
+      "artifact_sha256": "6c183a19a3a06d1885f829af6078c89b22f03217d0c0ed44934f040e3d2cc894"
+    },
+    "ebpf/src/main.rs": {
+      "upstream_sha256": "f36c780318245d68baf4cab3b5c805f73393651fe318e933dfa02d244aa4eb19",
+      "artifact_sha256": "f36c780318245d68baf4cab3b5c805f73393651fe318e933dfa02d244aa4eb19"
+    },
+    "ebpf/src/maps.rs": {
+      "upstream_sha256": "cb236b1f5931a544738661551984cb100b60163c601692d3ae08663d25447da0",
+      "artifact_sha256": "cb236b1f5931a544738661551984cb100b60163c601692d3ae08663d25447da0"
+    },
+    "ebpf/src/rtps.rs": {
+      "upstream_sha256": "fd3c3bff4154639b81e73f633a63aae56714d1868c9a3a18e562621c942e0945",
+      "artifact_sha256": "fd3c3bff4154639b81e73f633a63aae56714d1868c9a3a18e562621c942e0945"
+    },
+    "ros2probe/Cargo.toml": {
+      "upstream_sha256": "f18279411810f3af24431f887acf87e73b5208cc6b9444c0d246bb54cbe33360",
+      "artifact_sha256": "f18279411810f3af24431f887acf87e73b5208cc6b9444c0d246bb54cbe33360"
+    },
+    "ros2probe/build.rs": {
+      "upstream_sha256": "e1a77c5b19621e0cd1284e5cbd9c5841ab9c3517b74264e2ddfed471b532f81e",
+      "artifact_sha256": "e1a77c5b19621e0cd1284e5cbd9c5841ab9c3517b74264e2ddfed471b532f81e"
+    },
+    "ros2probe/src/bin/rp.rs": {
+      "upstream_sha256": "7a2bd16da4ecc955320444b50c2b7fe8f3786dc18400e21e906b92bcfeb44512",
+      "artifact_sha256": "7a2bd16da4ecc955320444b50c2b7fe8f3786dc18400e21e906b92bcfeb44512"
+    },
+    "ros2probe/src/capture/capture.rs": {
+      "upstream_sha256": "93ccd81d44afb396d37aec84ec0131c14dcadbce4c29b04ea739f1b579a4e0c2",
+      "artifact_sha256": "93ccd81d44afb396d37aec84ec0131c14dcadbce4c29b04ea739f1b579a4e0c2"
+    },
+    "ros2probe/src/capture/ip_frag.rs": {
+      "upstream_sha256": "e5c57f5082a1f57fa6074c908784fcb0f0496b5fdeb62a0d585a5a9e3e381bcd",
+      "artifact_sha256": "e5c57f5082a1f57fa6074c908784fcb0f0496b5fdeb62a0d585a5a9e3e381bcd"
+    },
+    "ros2probe/src/capture/mod.rs": {
+      "upstream_sha256": "f6d5f37278beccf217ebb5f5de30abe33b56a8fdf7d1a00c731b6f3550640c51",
+      "artifact_sha256": "f6d5f37278beccf217ebb5f5de30abe33b56a8fdf7d1a00c731b6f3550640c51"
+    },
+    "ros2probe/src/capture/socket.rs": {
+      "upstream_sha256": "50cdfa659d1dbeec9ef9584586239d22d87085bccf2528695bd00ab518159df4",
+      "artifact_sha256": "973deb6f7b689f83fa516b5afa1558eb0019f7bfd64464aa6d2e65a7e72f397f"
+    },
+    "ros2probe/src/cli/action/info.rs": {
+      "upstream_sha256": "1ee512cdf27ec484ef7cbd1ddae512b435f6041eefdbf0360bd2e8ce4ae16249",
+      "artifact_sha256": "1ee512cdf27ec484ef7cbd1ddae512b435f6041eefdbf0360bd2e8ce4ae16249"
+    },
+    "ros2probe/src/cli/action/list.rs": {
+      "upstream_sha256": "a74adfabdc4aaa24dac1ce095748fcfdeb82bbf2b75178ab98d071fdc270d411",
+      "artifact_sha256": "a74adfabdc4aaa24dac1ce095748fcfdeb82bbf2b75178ab98d071fdc270d411"
+    },
+    "ros2probe/src/cli/action/mod.rs": {
+      "upstream_sha256": "7cc9d58e460ded53fb782531cb02a749d58ba34aa79a6defe5e8cacd4ba148c1",
+      "artifact_sha256": "7cc9d58e460ded53fb782531cb02a749d58ba34aa79a6defe5e8cacd4ba148c1"
+    },
+    "ros2probe/src/cli/bag/mod.rs": {
+      "upstream_sha256": "9c6e05cc4b5da60d2ed2f058f3546f5df46c3dcaf861d398819d7077c11d4209",
+      "artifact_sha256": "9c6e05cc4b5da60d2ed2f058f3546f5df46c3dcaf861d398819d7077c11d4209"
+    },
+    "ros2probe/src/cli/bag/record.rs": {
+      "upstream_sha256": "51fc025ab4b2b11218d50224757afa44b4829a66ab82795e5d9081ffd33ca0a2",
+      "artifact_sha256": "51fc025ab4b2b11218d50224757afa44b4829a66ab82795e5d9081ffd33ca0a2"
+    },
+    "ros2probe/src/cli/bag/util.rs": {
+      "upstream_sha256": "15f40138370a3e352d351935d32f43f69a854fe2aa1b44ff1be216b089137914",
+      "artifact_sha256": "15f40138370a3e352d351935d32f43f69a854fe2aa1b44ff1be216b089137914"
+    },
+    "ros2probe/src/cli/discover.rs": {
+      "upstream_sha256": "460c074e27202ebed2b2e5f549a14951b7a4b1c553330f19e2ab966ac794dbb8",
+      "artifact_sha256": "460c074e27202ebed2b2e5f549a14951b7a4b1c553330f19e2ab966ac794dbb8"
+    },
+    "ros2probe/src/cli/mod.rs": {
+      "upstream_sha256": "2653513813089eaab09958eba3081380139d2cf006612af684625a3848b684e2",
+      "artifact_sha256": "2653513813089eaab09958eba3081380139d2cf006612af684625a3848b684e2"
+    },
+    "ros2probe/src/cli/node/info.rs": {
+      "upstream_sha256": "bdc1df8ffac9f4f280db9e30a46327527868afa7d1445dabd641bc21100767e9",
+      "artifact_sha256": "bdc1df8ffac9f4f280db9e30a46327527868afa7d1445dabd641bc21100767e9"
+    },
+    "ros2probe/src/cli/node/list.rs": {
+      "upstream_sha256": "2e03f7ae7091e44bf7a3945a6473966085aec0b88149d0e51950f7b8c716a83f",
+      "artifact_sha256": "2e03f7ae7091e44bf7a3945a6473966085aec0b88149d0e51950f7b8c716a83f"
+    },
+    "ros2probe/src/cli/node/mod.rs": {
+      "upstream_sha256": "9ce6222c2caefd9456de82f5818fafe53384c6ff84fb4a625789bf1ec2675044",
+      "artifact_sha256": "9ce6222c2caefd9456de82f5818fafe53384c6ff84fb4a625789bf1ec2675044"
+    },
+    "ros2probe/src/cli/service/find.rs": {
+      "upstream_sha256": "62b1e13bf50ad535efdeb4add43ae7f3346d0b666278d00f71396f9404fd6be2",
+      "artifact_sha256": "62b1e13bf50ad535efdeb4add43ae7f3346d0b666278d00f71396f9404fd6be2"
+    },
+    "ros2probe/src/cli/service/list.rs": {
+      "upstream_sha256": "0c1f8530e6b8807d2ca5908f9b4242982a8cb6addda27e6b3968d0cd006cf450",
+      "artifact_sha256": "0c1f8530e6b8807d2ca5908f9b4242982a8cb6addda27e6b3968d0cd006cf450"
+    },
+    "ros2probe/src/cli/service/mod.rs": {
+      "upstream_sha256": "095207c687c9195f9deca0562d189d5ebcde24139d62249a45cc43c3806ce2a6",
+      "artifact_sha256": "095207c687c9195f9deca0562d189d5ebcde24139d62249a45cc43c3806ce2a6"
+    },
+    "ros2probe/src/cli/service/type.rs": {
+      "upstream_sha256": "72239815ca5fc7f80df0a96a60648733ac9918537b55bc01ad09fd4cc776476c",
+      "artifact_sha256": "72239815ca5fc7f80df0a96a60648733ac9918537b55bc01ad09fd4cc776476c"
+    },
+    "ros2probe/src/cli/topic/bw.rs": {
+      "upstream_sha256": "be0cc07ac1897f170e5cd59403f0c57b153d49d20f232597a54a280c4e0531cd",
+      "artifact_sha256": "be0cc07ac1897f170e5cd59403f0c57b153d49d20f232597a54a280c4e0531cd"
+    },
+    "ros2probe/src/cli/topic/delay.rs": {
+      "upstream_sha256": "ebf3eda072051dbe18f679f24bedca6c940f3fd88ad9cbd3728cc9d522a8426e",
+      "artifact_sha256": "ebf3eda072051dbe18f679f24bedca6c940f3fd88ad9cbd3728cc9d522a8426e"
+    },
+    "ros2probe/src/cli/topic/echo.rs": {
+      "upstream_sha256": "628b8461383a056f03ef8fd8ff9d594a151eb47653a866f6a813d973880f3afb",
+      "artifact_sha256": "628b8461383a056f03ef8fd8ff9d594a151eb47653a866f6a813d973880f3afb"
+    },
+    "ros2probe/src/cli/topic/echo_helper.py": {
+      "upstream_sha256": "c504515745ac42331718513863400b39934a24f5cfaf2fc81445a0e679ad9f3d",
+      "artifact_sha256": "c504515745ac42331718513863400b39934a24f5cfaf2fc81445a0e679ad9f3d"
+    },
+    "ros2probe/src/cli/topic/find.rs": {
+      "upstream_sha256": "074999d95ca9bc1fdd7d33c1fd28a2eed139b92ba808e7849a0574e944e5e840",
+      "artifact_sha256": "074999d95ca9bc1fdd7d33c1fd28a2eed139b92ba808e7849a0574e944e5e840"
+    },
+    "ros2probe/src/cli/topic/hz.rs": {
+      "upstream_sha256": "9bc566c55b28505def39f94e2d0094b5ea445dcc902125b6dae792d194564744",
+      "artifact_sha256": "9bc566c55b28505def39f94e2d0094b5ea445dcc902125b6dae792d194564744"
+    },
+    "ros2probe/src/cli/topic/info.rs": {
+      "upstream_sha256": "53ea7faac33f1872d6160d44c432c8a203de14eedd236ae94f7fb6958090dbb2",
+      "artifact_sha256": "53ea7faac33f1872d6160d44c432c8a203de14eedd236ae94f7fb6958090dbb2"
+    },
+    "ros2probe/src/cli/topic/list.rs": {
+      "upstream_sha256": "dd3625d5db9d805a61072d742e3be77c81a675c105fc71ad5094c7317eddb9d4",
+      "artifact_sha256": "dd3625d5db9d805a61072d742e3be77c81a675c105fc71ad5094c7317eddb9d4"
+    },
+    "ros2probe/src/cli/topic/mod.rs": {
+      "upstream_sha256": "848ebcd283de08427102e6c50a10996b1cb0048f2fdba5f6895960b96a6d215a",
+      "artifact_sha256": "848ebcd283de08427102e6c50a10996b1cb0048f2fdba5f6895960b96a6d215a"
+    },
+    "ros2probe/src/cli/topic/type.rs": {
+      "upstream_sha256": "a639c6eed36be92c98e4d0197509163a5c3c051cb9aac8fbe1f049593be37090",
+      "artifact_sha256": "a639c6eed36be92c98e4d0197509163a5c3c051cb9aac8fbe1f049593be37090"
+    },
+    "ros2probe/src/client/mod.rs": {
+      "upstream_sha256": "7096207182e979dc3d09e2d411a0b08531ddaf227ed90c0bc5853d6b6e6ac073",
+      "artifact_sha256": "7096207182e979dc3d09e2d411a0b08531ddaf227ed90c0bc5853d6b6e6ac073"
+    },
+    "ros2probe/src/command/action/info.rs": {
+      "upstream_sha256": "e5986d9a1941d5815faff4ea63c21b3a74d5fe4a92d28bcf2af01f1cee1c6f77",
+      "artifact_sha256": "e5986d9a1941d5815faff4ea63c21b3a74d5fe4a92d28bcf2af01f1cee1c6f77"
+    },
+    "ros2probe/src/command/action/list.rs": {
+      "upstream_sha256": "29e59098b030221bf9904dac247c858911c78837dd096690e614a0264e90e0af",
+      "artifact_sha256": "29e59098b030221bf9904dac247c858911c78837dd096690e614a0264e90e0af"
+    },
+    "ros2probe/src/command/action/mod.rs": {
+      "upstream_sha256": "7cc9d58e460ded53fb782531cb02a749d58ba34aa79a6defe5e8cacd4ba148c1",
+      "artifact_sha256": "7cc9d58e460ded53fb782531cb02a749d58ba34aa79a6defe5e8cacd4ba148c1"
+    },
+    "ros2probe/src/command/bag/mod.rs": {
+      "upstream_sha256": "f4bd34b0943a8c4c9fbca6c839cd58c4c3dea0593673a78864c26c53274753d7",
+      "artifact_sha256": "f4bd34b0943a8c4c9fbca6c839cd58c4c3dea0593673a78864c26c53274753d7"
+    },
+    "ros2probe/src/command/bag/record.rs": {
+      "upstream_sha256": "d1d3a40a8ccc915c5b39a124c076cad212d0a3fd51488176a2e6abc0b91249b3",
+      "artifact_sha256": "d1d3a40a8ccc915c5b39a124c076cad212d0a3fd51488176a2e6abc0b91249b3"
+    },
+    "ros2probe/src/command/bag/set_paused.rs": {
+      "upstream_sha256": "0b8f669efbb24757a1ff2aa5ea72edfa267d967c0fc59ff640d520ada3af318d",
+      "artifact_sha256": "0b8f669efbb24757a1ff2aa5ea72edfa267d967c0fc59ff640d520ada3af318d"
+    },
+    "ros2probe/src/command/bag/status.rs": {
+      "upstream_sha256": "671347b42dddd8c4eaa8a4b1944bb95b33bf5c5f8d0ca97169e08400fc55a01e",
+      "artifact_sha256": "671347b42dddd8c4eaa8a4b1944bb95b33bf5c5f8d0ca97169e08400fc55a01e"
+    },
+    "ros2probe/src/command/bag/stop.rs": {
+      "upstream_sha256": "4f5ab46c8123f4a6a42c49c2308452ccebd48ec30818ef4daa18c572b7a90085",
+      "artifact_sha256": "4f5ab46c8123f4a6a42c49c2308452ccebd48ec30818ef4daa18c572b7a90085"
+    },
+    "ros2probe/src/command/discover/mod.rs": {
+      "upstream_sha256": "15fd8e2622de8d4040e20cfe4ff179264cfd94aa1a89596c77aa46dc6c05dc06",
+      "artifact_sha256": "15fd8e2622de8d4040e20cfe4ff179264cfd94aa1a89596c77aa46dc6c05dc06"
+    },
+    "ros2probe/src/command/discover/run.rs": {
+      "upstream_sha256": "17621a588c3ea49e867e01f891af52816ae02bbbf2b63b1f38ff8dad641094ed",
+      "artifact_sha256": "17621a588c3ea49e867e01f891af52816ae02bbbf2b63b1f38ff8dad641094ed"
+    },
+    "ros2probe/src/command/mod.rs": {
+      "upstream_sha256": "bfdf553ee9bb889945b84dd0caf0de09cf3aa173186d1771829f593763d65306",
+      "artifact_sha256": "bfdf553ee9bb889945b84dd0caf0de09cf3aa173186d1771829f593763d65306"
+    },
+    "ros2probe/src/command/node/info.rs": {
+      "upstream_sha256": "3497b410cb664c924bd66e759f4a29a2f297ccc8a4aad12bb2d9c914a3d38e24",
+      "artifact_sha256": "3497b410cb664c924bd66e759f4a29a2f297ccc8a4aad12bb2d9c914a3d38e24"
+    },
+    "ros2probe/src/command/node/list.rs": {
+      "upstream_sha256": "24d1affdfe5d39a33d1f672b7a69ba0c095800d5ea6fb200cb0dcb7ad186be6b",
+      "artifact_sha256": "24d1affdfe5d39a33d1f672b7a69ba0c095800d5ea6fb200cb0dcb7ad186be6b"
+    },
+    "ros2probe/src/command/node/mod.rs": {
+      "upstream_sha256": "7cc9d58e460ded53fb782531cb02a749d58ba34aa79a6defe5e8cacd4ba148c1",
+      "artifact_sha256": "7cc9d58e460ded53fb782531cb02a749d58ba34aa79a6defe5e8cacd4ba148c1"
+    },
+    "ros2probe/src/command/protocol.rs": {
+      "upstream_sha256": "1ab3e788b72e8c138cdfdc7542e15ecd2165ef0c26e54e450a81579e3a84921f",
+      "artifact_sha256": "1ab3e788b72e8c138cdfdc7542e15ecd2165ef0c26e54e450a81579e3a84921f"
+    },
+    "ros2probe/src/command/server.rs": {
+      "upstream_sha256": "01c88a71a015ecc9170d7d171c047065f5b4879e564ab028b3c70a64bef447b8",
+      "artifact_sha256": "01c88a71a015ecc9170d7d171c047065f5b4879e564ab028b3c70a64bef447b8"
+    },
+    "ros2probe/src/command/service/list.rs": {
+      "upstream_sha256": "169eebb15d642f1b6cda4870c1c712af2bf0dd7270626b4e311fba134d80591e",
+      "artifact_sha256": "169eebb15d642f1b6cda4870c1c712af2bf0dd7270626b4e311fba134d80591e"
+    },
+    "ros2probe/src/command/service/mod.rs": {
+      "upstream_sha256": "3e35ff9e07dab5c9a48273d4d9a624642cc91254c4340fa2931aeed5bf32220d",
+      "artifact_sha256": "3e35ff9e07dab5c9a48273d4d9a624642cc91254c4340fa2931aeed5bf32220d"
+    },
+    "ros2probe/src/command/service/type.rs": {
+      "upstream_sha256": "e919051ad9954f9ade8adb37cc2abcb1b3ffbe018343c437364edfee7708b210",
+      "artifact_sha256": "e919051ad9954f9ade8adb37cc2abcb1b3ffbe018343c437364edfee7708b210"
+    },
+    "ros2probe/src/command/state.rs": {
+      "upstream_sha256": "63eb7a39445a75b9aeb10bdbf0aae63bdf5cc23c0ca0a733137597e5b03a1ab6",
+      "artifact_sha256": "63eb7a39445a75b9aeb10bdbf0aae63bdf5cc23c0ca0a733137597e5b03a1ab6"
+    },
+    "ros2probe/src/command/topic/bw.rs": {
+      "upstream_sha256": "ee911d22fbe419384a2765443e8a746a3522e100fcc67a0ad2b4f0fb659d1aef",
+      "artifact_sha256": "ee911d22fbe419384a2765443e8a746a3522e100fcc67a0ad2b4f0fb659d1aef"
+    },
+    "ros2probe/src/command/topic/delay.rs": {
+      "upstream_sha256": "32b7d78f018929979ebb90da3c18dd51cf82a2ec0a9bd79deba2581e188571b0",
+      "artifact_sha256": "32b7d78f018929979ebb90da3c18dd51cf82a2ec0a9bd79deba2581e188571b0"
+    },
+    "ros2probe/src/command/topic/echo.rs": {
+      "upstream_sha256": "f2ea7a5e380b54cc6b23cc2a31e7ec9ab9ff6099813a24e3075c0e01c913aed6",
+      "artifact_sha256": "f2ea7a5e380b54cc6b23cc2a31e7ec9ab9ff6099813a24e3075c0e01c913aed6"
+    },
+    "ros2probe/src/command/topic/graph.rs": {
+      "upstream_sha256": "a4169dc1120a8268351e04def068a282c0d99c39896a339910db06179d045368",
+      "artifact_sha256": "a4169dc1120a8268351e04def068a282c0d99c39896a339910db06179d045368"
+    },
+    "ros2probe/src/command/topic/hz.rs": {
+      "upstream_sha256": "fecd87b21a648caf3575c22606f6aa5b59df08fb7e201efb7c1a4ad01649c2a5",
+      "artifact_sha256": "fecd87b21a648caf3575c22606f6aa5b59df08fb7e201efb7c1a4ad01649c2a5"
+    },
+    "ros2probe/src/command/topic/info.rs": {
+      "upstream_sha256": "4167f19298c3e3e2c88ad343a96c4144c71d185306cc7e8b596a6b40ea9d2bdc",
+      "artifact_sha256": "4167f19298c3e3e2c88ad343a96c4144c71d185306cc7e8b596a6b40ea9d2bdc"
+    },
+    "ros2probe/src/command/topic/list.rs": {
+      "upstream_sha256": "5e9103ba04d0c4e5f7d07c8bb479c3b1e7bb18d0eff8d355839a753383b2f64f",
+      "artifact_sha256": "5e9103ba04d0c4e5f7d07c8bb479c3b1e7bb18d0eff8d355839a753383b2f64f"
+    },
+    "ros2probe/src/command/topic/mod.rs": {
+      "upstream_sha256": "9806e1e01c8089cd6655ad35cabc89ba9ced800580a1fb7790ebd2b0dcaafe61",
+      "artifact_sha256": "9806e1e01c8089cd6655ad35cabc89ba9ced800580a1fb7790ebd2b0dcaafe61"
+    },
+    "ros2probe/src/command/topic/type.rs": {
+      "upstream_sha256": "8041ec47eca2d1cfa76c5cdc053f83e67e2fcb1a4f00b2e3cda20ef224fed5e1",
+      "artifact_sha256": "8041ec47eca2d1cfa76c5cdc053f83e67e2fcb1a4f00b2e3cda20ef224fed5e1"
+    },
+    "ros2probe/src/discovery/deserialize.rs": {
+      "upstream_sha256": "1eac06e827b87afc01122612bec01c4c211bd5753fb45d3dbe63d5c27ceb7546",
+      "artifact_sha256": "1eac06e827b87afc01122612bec01c4c211bd5753fb45d3dbe63d5c27ceb7546"
+    },
+    "ros2probe/src/discovery/discovery.rs": {
+      "upstream_sha256": "4de1033ab9fe96af87016dcc54666d453708ea94698d85bca032ee3d3dcd0ace",
+      "artifact_sha256": "4de1033ab9fe96af87016dcc54666d453708ea94698d85bca032ee3d3dcd0ace"
+    },
+    "ros2probe/src/discovery/ids.rs": {
+      "upstream_sha256": "31c925080799d0e5d8d047075b7cebb4c6d4d7d4fc95ae97326c4ae2876edd47",
+      "artifact_sha256": "31c925080799d0e5d8d047075b7cebb4c6d4d7d4fc95ae97326c4ae2876edd47"
+    },
+    "ros2probe/src/discovery/mod.rs": {
+      "upstream_sha256": "5488cae998b49ebd6a951c480da55cd3935990a2f81b40dcefb2c065f2343800",
+      "artifact_sha256": "5488cae998b49ebd6a951c480da55cd3935990a2f81b40dcefb2c065f2343800"
+    },
+    "ros2probe/src/discovery/ros_graph.rs": {
+      "upstream_sha256": "f72711bcf565096b8713b471ce2b8d715921143a3d3abb6ebb5b89b187f7dd3b",
+      "artifact_sha256": "f72711bcf565096b8713b471ce2b8d715921143a3d3abb6ebb5b89b187f7dd3b"
+    },
+    "ros2probe/src/gui/app.rs": {
+      "upstream_sha256": "d9bf68da5b39cc0a22db59b98b7f3b2079f2292a368234a2e5e9e1a2ed7e1b04",
+      "artifact_sha256": "d9bf68da5b39cc0a22db59b98b7f3b2079f2292a368234a2e5e9e1a2ed7e1b04"
+    },
+    "ros2probe/src/gui/bag_recorder.rs": {
+      "upstream_sha256": "eb573ac53b426fc169ce4f7ab4fae85ebe1a5bded9d244c4a8cdaed9043f40a2",
+      "artifact_sha256": "eb573ac53b426fc169ce4f7ab4fae85ebe1a5bded9d244c4a8cdaed9043f40a2"
+    },
+    "ros2probe/src/gui/dashboard.rs": {
+      "upstream_sha256": "64c97c0107bebd73d6a003a1a38c072df7e347ac128ff49da1320a3fad709a4b",
+      "artifact_sha256": "64c97c0107bebd73d6a003a1a38c072df7e347ac128ff49da1320a3fad709a4b"
+    },
+    "ros2probe/src/gui/mod.rs": {
+      "upstream_sha256": "56da5f9e27aafa8b9ae0dc118bdd5a4ec683e863e7205395b317095dcf83a4eb",
+      "artifact_sha256": "56da5f9e27aafa8b9ae0dc118bdd5a4ec683e863e7205395b317095dcf83a4eb"
+    },
+    "ros2probe/src/gui/ros_graph.rs": {
+      "upstream_sha256": "ca726c5a007971f40711bc07c4b1bc5e71d9b6b9af5324ef9482fd363a9162dc",
+      "artifact_sha256": "ca726c5a007971f40711bc07c4b1bc5e71d9b6b9af5324ef9482fd363a9162dc"
+    },
+    "ros2probe/src/gui/topic_monitor.rs": {
+      "upstream_sha256": "6d423395e1273698d157f3f0e8441b478cc41ece645e931aa0814924ce7beeb7",
+      "artifact_sha256": "6d423395e1273698d157f3f0e8441b478cc41ece645e931aa0814924ce7beeb7"
+    },
+    "ros2probe/src/lib.rs": {
+      "upstream_sha256": "eb58a95d7e281222c8d1316353725111eea8ddc0c421628744f1997bef89f59a",
+      "artifact_sha256": "eb58a95d7e281222c8d1316353725111eea8ddc0c421628744f1997bef89f59a"
+    },
+    "ros2probe/src/protocols/mod.rs": {
+      "upstream_sha256": "76d67b225ae3c5d684b3c9c7810ead3f8435c871d0924173ab9630e7ad9ff859",
+      "artifact_sha256": "76d67b225ae3c5d684b3c9c7810ead3f8435c871d0924173ab9630e7ad9ff859"
+    },
+    "ros2probe/src/protocols/rtps.rs": {
+      "upstream_sha256": "51721722455ceb884de204d0a62075111c25d7711811184ab9f87fcfe99caea6",
+      "artifact_sha256": "51721722455ceb884de204d0a62075111c25d7711811184ab9f87fcfe99caea6"
+    },
+    "ros2probe/src/protocols/zenoh.rs": {
+      "upstream_sha256": "ce8bcebf85dfcb7ddb7a2c01e24550165792317a98d10ff09f3c271583351442",
+      "artifact_sha256": "ce8bcebf85dfcb7ddb7a2c01e24550165792317a98d10ff09f3c271583351442"
+    },
+    "ros2probe/src/recorder/actor.rs": {
+      "upstream_sha256": "dd8fca7acf6f7ea851b44924176c5ba0b1f80256f0186c00badcd6b276b0725b",
+      "artifact_sha256": "dd8fca7acf6f7ea851b44924176c5ba0b1f80256f0186c00badcd6b276b0725b"
+    },
+    "ros2probe/src/recorder/gid_map.rs": {
+      "upstream_sha256": "3ee54d1f3ff055e06146c5a222f59ad43f7c1e600aace5b86f6c6f4b8a1dc8ec",
+      "artifact_sha256": "3ee54d1f3ff055e06146c5a222f59ad43f7c1e600aace5b86f6c6f4b8a1dc8ec"
+    },
+    "ros2probe/src/recorder/mod.rs": {
+      "upstream_sha256": "4ed9c2edce521e33881dfd310e23dd40d7d8e63d831bc330ca6ad79465acfa7f",
+      "artifact_sha256": "4ed9c2edce521e33881dfd310e23dd40d7d8e63d831bc330ca6ad79465acfa7f"
+    },
+    "ros2probe/src/recorder/recorder.rs": {
+      "upstream_sha256": "d57c49d19eb76a80f6b85d11a6659a9896a2364024e8e15bfcf63ed5e50b22ba",
+      "artifact_sha256": "d57c49d19eb76a80f6b85d11a6659a9896a2364024e8e15bfcf63ed5e50b22ba"
+    },
+    "ros2probe/src/runtime/bag.rs": {
+      "upstream_sha256": "c406e206f364e613253bed4432198b47e362c31d8d7c2921c3406eb426ed7d3a",
+      "artifact_sha256": "c406e206f364e613253bed4432198b47e362c31d8d7c2921c3406eb426ed7d3a"
+    },
+    "ros2probe/src/runtime/command.rs": {
+      "upstream_sha256": "c9d3f0ebe85c921d791ad137492b1aa8344cdeae62561cff23806c6be19b3e00",
+      "artifact_sha256": "c9d3f0ebe85c921d791ad137492b1aa8344cdeae62561cff23806c6be19b3e00"
+    },
+    "ros2probe/src/runtime/mod.rs": {
+      "upstream_sha256": "4b294690c339e1dbab6db0817ad7b8e41884154c25b7fccdee0283c886f49099",
+      "artifact_sha256": "4b294690c339e1dbab6db0817ad7b8e41884154c25b7fccdee0283c886f49099"
+    },
+    "ros2probe/src/runtime/observers.rs": {
+      "upstream_sha256": "6626c8355898065298e9a49f87a6c1ac6576f342c12ab74c5ca479e7c6c8e097",
+      "artifact_sha256": "6626c8355898065298e9a49f87a6c1ac6576f342c12ab74c5ca479e7c6c8e097"
+    },
+    "ros2probe/src/runtime/zenoh_discover.rs": {
+      "upstream_sha256": "e63256bf336b1a9b904290d1a61913966791a74dc237f8597daea7ad1d0b57e4",
+      "artifact_sha256": "e63256bf336b1a9b904290d1a61913966791a74dc237f8597daea7ad1d0b57e4"
+    },
+    "ros2probe/src/runtime/zenoh_shadow.rs": {
+      "upstream_sha256": "50edc9ee011a2b72fec69e3d54d975242fa1da2746ceaacf45b816693454d3b4",
+      "artifact_sha256": "50edc9ee011a2b72fec69e3d54d975242fa1da2746ceaacf45b816693454d3b4"
+    },
+    "ros2probe/src/shadow/discover.rs": {
+      "upstream_sha256": "9f4a0c84c7e0241359b63166b81c25717bdb0beffb0651fbbf44dcc7f04a3f3e",
+      "artifact_sha256": "9f4a0c84c7e0241359b63166b81c25717bdb0beffb0651fbbf44dcc7f04a3f3e"
+    },
+    "ros2probe/src/shadow/mod.rs": {
+      "upstream_sha256": "826aeef1e1df88170c18b73443e377597530bc22e58e0bb4da865067c376597c",
+      "artifact_sha256": "826aeef1e1df88170c18b73443e377597530bc22e58e0bb4da865067c376597c"
+    },
+    "ros2probe/src/shadow/sub.rs": {
+      "upstream_sha256": "e8e7c5bb2c8e493701610643df583de8645fc7d87ce0540a741b7fd95fd62153",
+      "artifact_sha256": "e8e7c5bb2c8e493701610643df583de8645fc7d87ce0540a741b7fd95fd62153"
+    },
+    "rustfmt.toml": {
+      "upstream_sha256": "92a9a6f8c4cdcb74fe06bff2299776cd40a6a19d4135e9e1574b3c74e18daec4",
+      "artifact_sha256": "92a9a6f8c4cdcb74fe06bff2299776cd40a6a19d4135e9e1574b3c74e18daec4"
+    }
+  }
+}

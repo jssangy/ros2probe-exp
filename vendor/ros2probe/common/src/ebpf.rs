@@ -1,0 +1,12 @@
+pub const MAX_TOPIC_GIDS: u32 = 1024;
+pub const MAX_FRAGMENT_FLOWS: u32 = 4096;
+pub const MAX_ZENOH_PORTS: u32 = 64;
+
+pub const TOPIC_GID_STATE_AVAILABLE: u8 = 1;
+pub const TOPIC_GID_STATE_UNAVAILABLE: u8 = 2;
+
+pub const MIDDLEWARE_FASTDDS: u32 = 1;
+pub const MIDDLEWARE_CYCLONEDDS: u32 = 2;
+pub const MIDDLEWARE_ZENOH: u32 = 3;
+
+pub const ZENOH_TRANSPORT_PORT: u16 = 7447;

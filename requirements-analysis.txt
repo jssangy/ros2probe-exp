@@ -1,0 +1,3 @@
+# ROS message and rosbag2 Python bindings come from the sourced ROS installation.
+matplotlib
+numpy
